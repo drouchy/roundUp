@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "accountUid": "d893985e-2b1e-493c-88c7-46f063d2be7c",
+      "defaultCategory": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "currency": "GBP",
+      "createdAt": "2018-06-13T06:45:28.006Z"
+    },
+    {
+      "accountUid": "d893985e-2b1e-493c-88c7-4593209423420",
+      "defaultCategory": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "currency": "GBP",
+      "createdAt": "2018-06-18T06:45:28.006Z"
+    }
+  ]
+}

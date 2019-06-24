@@ -1,0 +1,970 @@
+{
+  "feedItems": [
+    {
+      "feedItemUid": "a9b58d7e-28ee-44f9-bf5b-350cb85cad00",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T12:12:41.242Z",
+      "transactionTime": "2019-06-15T12:12:41.169Z",
+      "settlementTime": "2019-06-15T12:12:41.169Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "08e33f74-826f-4362-bceb-961fd2813a99",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:56:54.984Z",
+      "transactionTime": "2019-06-15T10:56:54.898Z",
+      "settlementTime": "2019-06-15T10:56:54.898Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "99a04358-bab9-463a-a6eb-24e93d8ec6e1",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 12330
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 12330
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:56:38.080Z",
+      "transactionTime": "2019-06-15T10:56:38.006Z",
+      "settlementTime": "2019-06-15T10:56:38.006Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "667393ee-79b8-450f-b5f4-3d45bfaf1449",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:07.340Z",
+      "transactionTime": "2019-06-15T10:27:07.274Z",
+      "settlementTime": "2019-06-15T10:27:07.274Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "d23ec9f0-1c5e-4215-b0a9-57d7219ae385",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:06.529Z",
+      "transactionTime": "2019-06-15T10:27:06.476Z",
+      "settlementTime": "2019-06-15T10:27:06.476Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "fc292070-d1c3-4803-bc26-544520e6b46b",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:05.801Z",
+      "transactionTime": "2019-06-15T10:27:05.703Z",
+      "settlementTime": "2019-06-15T10:27:05.703Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "33e12b97-d767-45a2-91aa-12a33587abe3",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:49.553Z",
+      "transactionTime": "2019-06-15T10:26:49.487Z",
+      "settlementTime": "2019-06-15T10:26:49.487Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "cdfc9651-b123-4518-bc3a-c56e5ef0230b",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:48.382Z",
+      "transactionTime": "2019-06-15T10:26:48.305Z",
+      "settlementTime": "2019-06-15T10:26:48.305Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "38204011-4c0d-499e-a5a1-d80e9ee6fb20",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:47.189Z",
+      "transactionTime": "2019-06-15T10:26:47.139Z",
+      "settlementTime": "2019-06-15T10:26:47.139Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "6e2cad74-5d85-4fa8-bd5b-0a98227e7a70",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:46.176Z",
+      "transactionTime": "2019-06-15T10:26:46.126Z",
+      "settlementTime": "2019-06-15T10:26:46.126Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "08a3df37-48ba-4721-959a-99b73d817072",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:39.901Z",
+      "transactionTime": "2019-06-15T10:26:39.792Z",
+      "settlementTime": "2019-06-15T10:26:39.792Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "d5168865-fda7-4eb7-be7a-b18156fe6138",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1250
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1250
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.822Z",
+      "transactionTime": "2019-06-13T06:46:11.378Z",
+      "settlementTime": "2019-06-13T06:46:11.794Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "fc9350f7-fcd8-4b39-b897-c9c1703e7723",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "28d7be0a-7863-4d76-b9f9-5e61005adb4f",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d51628eb-04ad-4beb-a9e5-9870a793e242",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1454
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1454
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.796Z",
+      "transactionTime": "2019-06-13T06:46:11.362Z",
+      "settlementTime": "2019-06-13T06:46:11.759Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "3ceed528-706c-4a02-bd07-78674f8d8836",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "12e036ab-78b7-4e0d-8a73-9e2391fce29c",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d516e93e-047c-41ac-9325-9d865226e4fc",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1184
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1184
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.749Z",
+      "transactionTime": "2019-06-13T06:46:11.351Z",
+      "settlementTime": "2019-06-13T06:46:11.695Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "302c0bdb-2322-405e-ad27-cc04ad10bb85",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "a8d8c9f0-92d0-4ce0-a2ee-9848a393bcdc",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d516d0b2-b8f0-4f1a-b4d0-af16f403fa01",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2025
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2025
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.771Z",
+      "transactionTime": "2019-06-13T06:46:11.350Z",
+      "settlementTime": "2019-06-13T06:46:11.712Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "315e2d86-9d8f-4aac-9fb1-c974ca6eb80a",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "253d6404-5f32-4e8f-a930-25d354e40ba4",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d516c8a9-1b2e-46a5-b212-421328ca4599",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2705
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2705
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.732Z",
+      "transactionTime": "2019-06-13T06:46:11.341Z",
+      "settlementTime": "2019-06-13T06:46:11.654Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "9e94f12f-0a95-4a72-9ae9-64feac2e90fb",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "2966deeb-e46c-4d46-be39-815b9895c0bc",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d516db05-e20b-4a73-8d7f-42caf2925bfd",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 438
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 438
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.713Z",
+      "transactionTime": "2019-06-13T06:46:11.263Z",
+      "settlementTime": "2019-06-13T06:46:11.552Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "0baacb5f-7347-4101-b23c-b7430556817e",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "b63f4bab-5e8e-4a30-ab24-a2b71beb46df",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS"
+    },
+    {
+      "feedItemUid": "d5164e9b-e2a1-4ce6-8c4b-342facc76dc6",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3629
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3629
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:22:18.007Z",
+      "transactionTime": "2019-06-13T06:46:11.169Z",
+      "settlementTime": "2019-06-13T06:46:11.242Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  0d1a36db-cb77-46c5-aa99-ceb1baaf835aGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516e1e7-45b8-423f-8f2b-ff62e4991871",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3773
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3773
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T08:46:10.346Z",
+      "transactionTime": "2019-06-13T06:46:11.165Z",
+      "settlementTime": "2019-06-13T06:46:11.271Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  44414ba6-0da3-4ea6-b214-fe2f529e1b24GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516d241-64ba-474f-aadb-5d195fcc22bc",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3508
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3508
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:21:08.716Z",
+      "transactionTime": "2019-06-13T06:46:11.138Z",
+      "settlementTime": "2019-06-13T06:46:11.229Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  f60330e0-f0c2-4164-ae1f-8a943b0f61baGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d5162f24-f16c-4cfe-82b9-cf962b0c9507",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 164
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 164
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T08:39:13.600Z",
+      "transactionTime": "2019-06-13T06:46:11.117Z",
+      "settlementTime": "2019-06-13T06:46:11.237Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  0c040076-cd41-432c-9d51-1e838acfc7a5GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516347f-d55d-4f83-a343-b5a8885055ff",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2365
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2365
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:52:45.705Z",
+      "transactionTime": "2019-06-13T06:46:11.092Z",
+      "settlementTime": "2019-06-13T06:46:11.214Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  e82bd091-31b0-4958-89d2-100596787c36GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516de2e-bd89-4667-93a5-29f4e1bc196e",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 917
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 917
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:32:46.991Z",
+      "transactionTime": "2019-06-13T06:46:11.078Z",
+      "settlementTime": "2019-06-13T06:46:11.197Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  3ce56140-f3a4-4478-9276-858ad70ece8bGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516d39e-312e-4016-b005-f8945bed0cd5",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 507
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 507
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:46:11.333Z",
+      "transactionTime": "2019-06-13T06:46:11.077Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "PENDING",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  1b12125d-8c52-49c3-9ac2-e8c4076c2b61GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d5161a1e-049a-41da-937c-b319f4b9c363",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2763
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2763
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:50:38.254Z",
+      "transactionTime": "2019-06-13T06:46:11.058Z",
+      "settlementTime": "2019-06-13T06:46:11.175Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  a7d4174a-3629-462f-a694-3eceee59df9fGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d5164cb8-4cb0-4d3a-a1f7-2212d19613fd",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2144
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2144
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:41:56.829Z",
+      "transactionTime": "2019-06-13T06:46:11.047Z",
+      "settlementTime": "2019-06-13T06:46:11.170Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  0380d80e-9e6a-4b70-9d99-278a1df3524fGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d51654c5-9a11-46a8-8ac0-aabc537c3773",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 326
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 326
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:17:58.531Z",
+      "transactionTime": "2019-06-13T06:46:11.047Z",
+      "settlementTime": "2019-06-13T06:46:11.101Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  abb07598-9267-41ee-8009-b8fd35016928GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d5166bdd-e346-4aeb-87f4-e2e30b3c246d",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3713
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3713
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T08:27:00.082Z",
+      "transactionTime": "2019-06-13T06:46:11.043Z",
+      "settlementTime": "2019-06-13T06:46:11.166Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  ae77132a-8f9f-4c99-89a5-caee5305e960GB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d51609c8-1cd6-4296-ab94-7ad2a94e8641",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1167
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1167
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T07:21:08.686Z",
+      "transactionTime": "2019-06-13T06:46:11.040Z",
+      "settlementTime": "2019-06-13T06:46:11.189Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  e255694c-71e4-4349-bc20-58f33263b6cdGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516e070-21ad-48a4-ae2e-425da282fdbc",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3837
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3837
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-13T06:49:33.331Z",
+      "transactionTime": "2019-06-13T06:46:11.024Z",
+      "settlementTime": "2019-06-13T06:46:11.093Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  4afecb6f-160d-4bf0-ac42-e1e2c336b72fGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    },
+    {
+      "feedItemUid": "d516fbfe-ebe6-48a8-bd6d-b16ded27049e",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1241
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1241
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:11.978Z",
+      "transactionTime": "2019-06-13T06:46:11.000Z",
+      "settlementTime": "2019-06-13T06:46:11.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "203002",
+      "counterPartySubEntitySubIdentifier": "55124133",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d5162cc2-b7b7-4f0e-819e-bb7ec63557a6",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1643
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1643
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:12.007Z",
+      "transactionTime": "2019-06-13T06:46:11.000Z",
+      "settlementTime": "2019-06-13T06:46:11.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "203002",
+      "counterPartySubEntitySubIdentifier": "65290488",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d516c4ed-5efe-48d0-9109-9ac5a0da3ebe",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1611
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1611
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:12.007Z",
+      "transactionTime": "2019-06-13T06:46:11.000Z",
+      "settlementTime": "2019-06-13T06:46:11.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "62861955",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d51690b4-a4e5-4e29-8b55-a79fc32bf8b6",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 593
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 593
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:11.972Z",
+      "transactionTime": "2019-06-13T06:46:11.000Z",
+      "settlementTime": "2019-06-13T06:46:11.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "203002",
+      "counterPartySubEntitySubIdentifier": "53277700",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d516696d-3228-40b5-a7dc-d38b43fbe739",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3249
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3249
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:12.040Z",
+      "transactionTime": "2019-06-13T06:46:11.000Z",
+      "settlementTime": "2019-06-13T06:46:11.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "166051",
+      "counterPartySubEntitySubIdentifier": "44799983",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d5162e5f-d078-4bfd-950a-c8a48e297990",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:10.902Z",
+      "transactionTime": "2019-06-13T06:46:10.000Z",
+      "settlementTime": "2019-06-13T06:46:10.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "203002",
+      "counterPartySubEntitySubIdentifier": "80082100",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d516f76b-cd61-40ea-830a-3f9073e0b822",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2112
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2112
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:11.033Z",
+      "transactionTime": "2019-06-13T06:46:10.000Z",
+      "settlementTime": "2019-06-13T06:46:10.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "203002",
+      "counterPartySubEntitySubIdentifier": "89327363",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    },
+    {
+      "feedItemUid": "d5164cdb-693c-48ab-9394-3c6ddc5340ac",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 50000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 50000
+      },
+      "direction": "IN",
+      "updatedAt": "2019-06-13T06:46:10.682Z",
+      "transactionTime": "2019-06-13T06:46:10.000Z",
+      "settlementTime": "2019-06-13T06:46:10.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "MR CUSTOMER",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "166051",
+      "counterPartySubEntitySubIdentifier": "71199963",
+      "reference": "someRef",
+      "country": "GB",
+      "spendingCategory": "INCOME"
+    }
+  ]
+}
