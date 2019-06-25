@@ -1,0 +1,257 @@
+{
+  "feedItems": [
+    {
+      "feedItemUid": "a9b58d7e-28ee-44f9-bf5b-350cb85cad00",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T12:12:41.242Z",
+      "transactionTime": "2019-06-15T12:12:41.169Z",
+      "settlementTime": "2019-06-15T12:12:41.169Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "08e33f74-826f-4362-bceb-961fd2813a99",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:56:54.984Z",
+      "transactionTime": "2019-06-15T10:56:54.898Z",
+      "settlementTime": "2019-06-15T10:56:54.898Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "99a04358-bab9-463a-a6eb-24e93d8ec6e1",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 12330
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 12330
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:56:38.080Z",
+      "transactionTime": "2019-06-15T10:56:38.006Z",
+      "settlementTime": "2019-06-15T10:56:38.006Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "667393ee-79b8-450f-b5f4-3d45bfaf1449",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:07.340Z",
+      "transactionTime": "2019-06-15T10:27:07.274Z",
+      "settlementTime": "2019-06-15T10:27:07.274Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "d23ec9f0-1c5e-4215-b0a9-57d7219ae385",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:06.529Z",
+      "transactionTime": "2019-06-15T10:27:06.476Z",
+      "settlementTime": "2019-06-15T10:27:06.476Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "fc292070-d1c3-4803-bc26-544520e6b46b",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:27:05.801Z",
+      "transactionTime": "2019-06-15T10:27:05.703Z",
+      "settlementTime": "2019-06-15T10:27:05.703Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "33e12b97-d767-45a2-91aa-12a33587abe3",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:49.553Z",
+      "transactionTime": "2019-06-15T10:26:49.487Z",
+      "settlementTime": "2019-06-15T10:26:49.487Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "cdfc9651-b123-4518-bc3a-c56e5ef0230b",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:48.382Z",
+      "transactionTime": "2019-06-15T10:26:48.305Z",
+      "settlementTime": "2019-06-15T10:26:48.305Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "38204011-4c0d-499e-a5a1-d80e9ee6fb20",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:47.189Z",
+      "transactionTime": "2019-06-15T10:26:47.139Z",
+      "settlementTime": "2019-06-15T10:26:47.139Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "6e2cad74-5d85-4fa8-bd5b-0a98227e7a70",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:46.176Z",
+      "transactionTime": "2019-06-15T10:26:46.126Z",
+      "settlementTime": "2019-06-15T10:26:46.126Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    },
+    {
+      "feedItemUid": "08a3df37-48ba-4721-959a-99b73d817072",
+      "categoryUid": "57c07432-ad18-4fd5-9a1c-6542e4c4daf5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1233
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-06-15T10:26:39.901Z",
+      "transactionTime": "2019-06-15T10:26:39.792Z",
+      "settlementTime": "2019-06-15T10:26:39.792Z",
+      "source": "INTERNAL_TRANSFER",
+      "status": "SETTLED",
+      "counterPartyType": "CATEGORY",
+      "counterPartyUid": "91958549-f27d-4507-b9cb-c57fc5f22955",
+      "counterPartyName": "Trip to Paris",
+      "country": "GB",
+      "spendingCategory": "SAVING"
+    }
+  ]
+}

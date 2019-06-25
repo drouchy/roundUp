@@ -21,8 +21,8 @@ public class RoundUpServiceImpl implements RoundUpService {
         HashMap<String, RoundUp> map = new HashMap<>();
 
         for (Account account : accounts) {
-            Amount amount = calculator.roundupTransactions(client.getTransactions(account));
-            var savingGoal = this.client.getSavingGoals(account).stream().filter(s -> s.getName().equals(request.savingGoalName)).findFirst().orElseGet(() -> newSavingGoalRequest(account, request));
+            Amount amount = calculator.roundupTransactions(client.getTransactions(account, request.getSince()));
+            var savingGoal = this.client.getSavingGoals(account).stream().filter(s -> s.getName().equals(request.getSavingGoalName())).findFirst().orElseGet(() -> newSavingGoalRequest(account, request));
             var response = this.client.addMoneyToSavingGoal(account, savingGoal, amount);
 
             var roundUp = new RoundUp(response.getTransferUid(), amount, response.getErrors());

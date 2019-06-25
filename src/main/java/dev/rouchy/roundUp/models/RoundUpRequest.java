@@ -1,7 +1,10 @@
 package dev.rouchy.roundUp.models;
 
+import java.time.Instant;
+
 public class RoundUpRequest {
-    public String savingGoalName;
+    private String savingGoalName;
+    private Instant since;
 
     public String getSavingGoalName() {
         return savingGoalName;
@@ -9,5 +12,13 @@ public class RoundUpRequest {
 
     public void setSavingGoalName(String savingGoalName) {
         this.savingGoalName = savingGoalName;
+    }
+
+    public Instant getSince() {
+        return since;
+    }
+
+    public void setSince(Instant since) {
+        this.since = since;
     }
 }

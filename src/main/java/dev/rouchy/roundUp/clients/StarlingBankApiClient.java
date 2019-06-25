@@ -10,10 +10,15 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.UUID;
 
 public class StarlingBankApiClient implements StarlingBankClient {
+    private final SimpleDateFormat ISO9601_FORMATTER = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+
     private final URI uri;
     private final String token;
     private final HttpClient client;
@@ -45,9 +50,9 @@ public class StarlingBankApiClient implements StarlingBankClient {
     }
 
     @Override
-    public List<TransactionFeedItem> getTransactions(Account account) throws ApiError {
+    public List<TransactionFeedItem> getTransactions(Account account, Instant since) throws ApiError {
         try {
-            var request = requestBuilder(transactionsUri(account)).GET().build();
+            var request = requestBuilder(transactionsUri(account, since)).GET().build();
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
@@ -124,8 +129,12 @@ public class StarlingBankApiClient implements StarlingBankClient {
         return this.uri.resolve("accounts");
     }
 
-    private URI transactionsUri(Account account) {
-        return this.uri.resolve(String.format("feed/account/%s/category/%s", account.getAccountUid(), account.getDefaultCategory()));
+    private URI transactionsUri(Account account, Instant since) {
+        return this.uri.resolve(String.format("feed/account/%s/category/%s?changesSince=%s", account.getAccountUid(), account.getDefaultCategory(), format(since)));
+    }
+
+    private String format(Instant instant) {
+        return DateTimeFormatter.ISO_INSTANT.format(instant);
     }
 
     private URI savingGoalsUri(Account account) {

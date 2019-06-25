@@ -1,7 +1,9 @@
 package dev.rouchy.roundUp;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import dev.rouchy.roundUp.clients.StarlingBankApiClientBuilder;
 import dev.rouchy.roundUp.models.RoundUpRequest;
 import dev.rouchy.roundUp.services.RoundUpServiceImpl;
@@ -20,6 +22,8 @@ public class Application {
     }
 
     public void start() {
+        var mapper = mapper();
+
         http.get("/ping", (request, response) -> "pong");
         http.put("/transactions/roundUp", (request, response) -> {
             try {
@@ -30,7 +34,6 @@ public class Application {
                 );
 
 
-                ObjectMapper mapper = new ObjectMapper();
                 var roundUpRequest = mapper.readValue(request.body(), RoundUpRequest.class);
 
                 return mapper.writeValueAsString(service.roundUpCustomerTransactions(roundUpRequest));
@@ -40,6 +43,13 @@ public class Application {
                 return "Server Error";
             }
         });
+    }
+
+    private ObjectMapper mapper() {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.registerModule(new JavaTimeModule());
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        return mapper;
     }
 
     private String extractToken(Request request) {
