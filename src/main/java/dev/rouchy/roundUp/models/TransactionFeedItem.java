@@ -6,7 +6,6 @@ public class TransactionFeedItem {
     private Amount amount;
     private TransactionDirection direction;
     private TransactionStatus status;
-    private TransactionSource source;
 
     public String getFeedItemUid() {
         return feedItemUid;
@@ -46,13 +45,5 @@ public class TransactionFeedItem {
 
     public void setStatus(TransactionStatus status) {
         this.status = status;
-    }
-
-    public TransactionSource getSource() {
-        return source;
-    }
-
-    public void setSource(TransactionSource source) {
-        this.source = source;
     }
 }

@@ -10,15 +10,12 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.UUID;
 
 public class StarlingBankApiClient implements StarlingBankClient {
-    private final SimpleDateFormat ISO9601_FORMATTER = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
-
     private final URI uri;
     private final String token;
     private final HttpClient client;
@@ -42,10 +39,8 @@ public class StarlingBankApiClient implements StarlingBankClient {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             return objectMapper.readValue(response.body(), AccountList.class).getAccounts();
         } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
+            throw new ApiError("failed to fetch accounts", e);
         }
-
-        return null; // TODO supports errors
 
     }
 
@@ -58,10 +53,8 @@ public class StarlingBankApiClient implements StarlingBankClient {
 
             return objectMapper.readValue(response.body(), TransactionFeed.class).getFeedItems();
         } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
+            throw new ApiError("failed to fetch transactions feed", e);
         }
-
-        return null; // TODO supports errors
     }
 
     @Override
@@ -73,10 +66,8 @@ public class StarlingBankApiClient implements StarlingBankClient {
 
             return objectMapper.readValue(response.body(), SavingGoalList.class).getSavingsGoalList();
         } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
+            throw new ApiError("failed to fetch saving goals", e);
         }
-
-        return null; // TODO supports errors
     }
 
     @Override
@@ -91,10 +82,8 @@ public class StarlingBankApiClient implements StarlingBankClient {
 
             return objectMapper.readValue(response.body(), NewSavingGoalResponse.class);
         } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
+            throw new ApiError("failed to create saving goal", e);
         }
-
-        return null;
     }
 
     @Override
@@ -112,10 +101,8 @@ public class StarlingBankApiClient implements StarlingBankClient {
 
             return objectMapper.readValue(response.body(), AddMoneyToSavingGoalResponse.class);
         } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
+           throw new ApiError("failed to add money to saving account", e);
         }
-
-        return null; // TODO supports errors
     }
 
     private HttpRequest.Builder requestBuilder(URI uri) {

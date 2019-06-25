@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import java.time.Instant;
 
 import static dev.rouchy.roundUp.models.TransactionDirection.OUT;
-import static dev.rouchy.roundUp.models.TransactionSource.INTERNAL_TRANSFER;
 import static dev.rouchy.roundUp.models.TransactionStatus.SETTLED;
 import static dev.rouchy.roundUp.support.FakeStarling.PORT;
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -41,7 +40,6 @@ class TransactionsTest {
         assertAll("transaction detail",
                 () -> assertEquals(OUT, transaction.getDirection()),
                 () -> assertEquals(SETTLED, transaction.getStatus()),
-                () -> assertEquals(INTERNAL_TRANSFER, transaction.getSource()),
                 () -> assertEquals(Long.valueOf(1), transaction.getAmount().getMinorUnits()),
                 () -> assertEquals("GBP", transaction.getAmount().getCurrency())
         );
