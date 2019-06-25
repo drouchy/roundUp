@@ -33,7 +33,7 @@ class TransactionsTest {
                 () -> assertEquals(OUT, transaction.getDirection()),
                 () -> assertEquals(SETTLED, transaction.getStatus()),
                 () -> assertEquals(INTERNAL_TRANSFER, transaction.getSource()),
-                () -> assertEquals(Integer.valueOf(1), transaction.getAmount().getMinorUnits()),
+                () -> assertEquals(Long.valueOf(1), transaction.getAmount().getMinorUnits()),
                 () -> assertEquals("GBP", transaction.getAmount().getCurrency())
         );
     }

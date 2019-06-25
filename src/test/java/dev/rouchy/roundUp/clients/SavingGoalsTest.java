@@ -40,7 +40,7 @@ class SavingGoalsTest {
     @Test
     public void addingMoneyToTheSavingGoal() throws Exception {
         Amount amount = new Amount();
-        amount.setMinorUnits(1239);
+        amount.setMinorUnits(1239L);
         amount.setCurrency("GBP");
 
         var response = client.addMoneyToSavingGoal(account(), savingGoal(), amount);
