@@ -5,6 +5,13 @@ import dev.rouchy.roundUp.models.TransactionFeedItem;
 
 import java.util.List;
 
+/**
+ *
+ *  Round a list of transactions: Sum-up all the amounts and build a new Amount instance.
+ *
+ *  The code assumes all the transactions are in the same currency
+ *
+ */
 public class CustomerTransactionsRoundUpCalculator {
     private final RoundUpCalculator calculator;
 

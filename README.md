@@ -68,14 +68,37 @@ curl -X "PUT" "http://localhost:8080/transactions/roundUp" \
      -H 'Authorization: Bearer boGzM093o9AUnpi77w5jwNZ1L200qg37CUL2oFFYcavoJc1ZDAlT823FrXRpXXNA' \
      -H 'Content-Type: text/plain; charset=utf-8' \
      -d $'{
-	"savingGoalName": "christmas",
-	"since": "2019-06-14T00:00:00Z"
+  "savingGoalName": "christmas",
+  "since": "2019-06-14T00:00:00Z"
 }'
 
 * savingGoalName: it will send money from the account into the saving goal with the provided name (will create a new one if not found)
 * since: it will roundUp all the transactions since the provided date
 
-Note: The application will send money in the saving goal for each account the custome has.
+## Example of a response
 
+`
+{
+  "roundUps": {
+    "d893985e-2b1e-493c-88c7-46f063d2be7c": {
+      "transactionUid": "8b596a9b-3dac-4374-a65f-18c3e91ba0f4",
+      "amount": {
+        "minorUnits": 869,
+        "currency": "GBP"
+      },
+      "errors": []
+    }
+  }
+}
+`
 
+in this case, the app round UP one customer account transactions, and made a transfer of £8.69 to the saving goal.
 
+Note: The application will send money in the saving goal for each account the customer has.
+
+# Future
+
+* generates the token for the customer (requires some UI), or store the token & refresh token
+* store the last "since" transactions, so the service can continuously round Up transactions
+* check the eligibility criteria. OUT transactions does not seem to be enough (settled, type...)
+* better API error handling

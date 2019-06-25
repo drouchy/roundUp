@@ -15,6 +15,23 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.UUID;
 
+/*
+    Starling bank API client
+
+    * use standard JDK http client library
+    * as the application is a pure JSON application it pre-requires a customer token (it does not generate a new one)
+
+    implemented methods:
+    --------------------
+
+        * Get an account holder's bank accounts
+        * Get the account holder's feed items which have changed, or been created, since a given date
+        * Get all savings goals
+        * Create a savings goal
+        * Add money into a savings goal
+
+    The code does not handle gracefully errors from the API, due to a lack of time
+ */
 public class StarlingBankApiClient implements StarlingBankClient {
     private final URI uri;
     private final String token;
