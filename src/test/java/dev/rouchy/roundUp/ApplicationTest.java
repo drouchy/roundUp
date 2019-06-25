@@ -19,7 +19,7 @@ class ApplicationTest {
 
     @BeforeEach
     public void setUp() {
-        application = new Application(Environment.DEVELOPMENT, RANDOM.nextInt(1000) + 9090);
+        application = new Application(Environment.DEVELOPMENT, 8787);
         application.start();
     }
 
@@ -41,10 +41,5 @@ class ApplicationTest {
 
         assertEquals(200, response.statusCode());
         assertEquals("pong", response.body());
-    }
-
-    @Test
-    public void calculatesTheRoundUpsForTheCustomer() throws Exception {
-
     }
 }

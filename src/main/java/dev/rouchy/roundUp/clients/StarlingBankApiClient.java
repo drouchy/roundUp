@@ -95,9 +95,12 @@ public class StarlingBankApiClient implements StarlingBankClient {
     @Override
     public AddMoneyToSavingGoalResponse addMoneyToSavingGoal(Account account,SavingGoal savingGoal, Amount amount) throws ApiError {
         try {
+            var addMoneyRequest = new AddMoneyToSavingGoalRequest();
+            addMoneyRequest.setAmount(amount);
+
             var request = requestBuilder(addMoneyToSavingGoalUri(account, savingGoal.getSavingsGoalUid(), UUID.randomUUID()))
                     .header("Content-Type", "application/json")
-                    .PUT(HttpRequest.BodyPublishers.ofString(objectMapper.writeValueAsString(amount)))
+                    .PUT(HttpRequest.BodyPublishers.ofString(objectMapper.writeValueAsString(addMoneyRequest)))
                     .build();
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());

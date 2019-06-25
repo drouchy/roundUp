@@ -4,9 +4,7 @@ import dev.rouchy.roundUp.calculators.CustomerTransactionsRoundUpCalculator;
 import dev.rouchy.roundUp.clients.StarlingBankClient;
 import dev.rouchy.roundUp.models.*;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 
 public class RoundUpServiceImpl implements RoundUpService {
     private final StarlingBankClient client;
@@ -24,7 +22,7 @@ public class RoundUpServiceImpl implements RoundUpService {
 
         for (Account account : accounts) {
             Amount amount = calculator.roundupTransactions(client.getTransactions(account));
-            var savingGoal = this.client.getSavingGoals(account).stream().filter(s -> s.getName().equals(request.savingGoalName)).findFirst().orElseThrow(RuntimeException::new);
+            var savingGoal = this.client.getSavingGoals(account).stream().filter(s -> s.getName().equals(request.savingGoalName)).findFirst().orElseGet(() -> newSavingGoalRequest(account, request));
             var response = this.client.addMoneyToSavingGoal(account, savingGoal, amount);
 
             var roundUp = new RoundUp(response.getTransferUid(), amount, response.getErrors());
@@ -34,5 +32,21 @@ public class RoundUpServiceImpl implements RoundUpService {
         var response = new RoundUpResponse();
         response.setRoundUps(map);
         return response;
+    }
+
+    private SavingGoal newSavingGoalRequest(Account account, RoundUpRequest roundUpRequest) {
+        NewSavingGoalRequest request = new NewSavingGoalRequest();
+        request.setCurrency(account.getCurrency());
+        request.setName(roundUpRequest.getSavingGoalName());
+        Amount target = new Amount();
+        target.setCurrency(account.getCurrency());
+        target.setMinorUnits(1000_00L);
+        request.setTarget(target);
+
+        var response = this.client.createSavingGoal(account, request);
+
+        SavingGoal savingGoal = new SavingGoal();
+        savingGoal.setSavingsGoalUid(response.getSavingsGoalUid());
+        return savingGoal;
     }
 }
